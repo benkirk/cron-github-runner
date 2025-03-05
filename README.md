@@ -16,7 +16,7 @@ Get started by following these steps:
 **Example cron job**
 ```sh
 # Check that the runner is active every 5 minutes
-*/5 * * * * $HOME/cron-github-runner/cron-github-runner --machine derecho $WORK/runners/hpc-runner
+*/5 * * * * $HOME/cron-github-runner/bin/cron-github-runner --machine derecho $WORK/runners/hpc-runner
 ```
 
 ## Advanced Usage
